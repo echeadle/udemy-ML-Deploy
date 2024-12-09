@@ -34,5 +34,6 @@ st.text('Text above divider')
 st.divider()
 st.text('Text below divider')
 
-#st.write
+#st.write < Swiss knife of streamlit
+# Can be used to write data frames. images etc...
 st.write('Some text')
