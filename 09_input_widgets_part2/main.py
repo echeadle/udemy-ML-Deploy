@@ -68,3 +68,11 @@ st.divider()
 
 txt_area = st.text_area("What do you want to tell me?", height=300, placeholder="Write your message here")
 st.write(txt_area)
+
+# Date Input
+visit_date = st.date_input("When are you coming?")
+st.write(f"Date of visit: {visit_date}")
+
+# Time Input
+visit_time = st.time_input("At what time are you coming?")
+st.write("Time of visit: {visit_time}")
